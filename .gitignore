@@ -1,0 +1,10 @@
+/nbproject/
+/assets/
+media/
+protected/config/connection.php
+# ignore all files ending with ~
+*~
+
+protected/runtime/
+
+

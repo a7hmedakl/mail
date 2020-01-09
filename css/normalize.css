@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../../fonts/glyphicons-halflings-regular.eot');
+    src: url('../../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+@font-face {
+    font-family: "JF Flat Regular";
+    src: url('../fonts/JF-Flat-regular.eot');
+    src: url('../fonts/JF-Flat-regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/JF-Flat-regular.svg#JF Flat Regular') format('svg'),
+        url('../fonts/JF-Flat-regular.woff') format('woff'),
+        url('../fonts/JF-Flat-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+html{
+    /*direction: rtl;*/
+}
+
+/* MAIN */
+*:before,
+*:after  { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    /*vertical-align:baseline;*/
+    background:transparent;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    color: #000000;
+    text-decoration: none;
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+a , a:hover , a:active , a:visited {
+    text-decoration: none;
+}
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+input, select {
+    vertical-align:middle;
+}
+
+div{
+    /*overflow: hidden;*/
+}
+
+h1 , h2 , h3 , h4 , h5 , h6{
+}
+
+p{
+
+}
+
+ul , ol{
+    padding: 0px;
+}
+
+li{
+    list-style-type: none;
+}
+
+img{
+    border: none;
+    width: auto;
+    height: auto;
+}
+
+header , footer , article , news , content , details , section , group , nav , bar , wrap_menu , blockh , blockv , title , block , wrap , clear{
+    display: block;
+}
+
+.clear{
+    clear:both;
+}
+
+::selection {
+    color: #FFF;
+    background: #e1904b;
+}
+
+::-moz-selection {
+    color: #FFF;
+    background: #e1904b;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    /* overflow-x: hidden !important; */
+    /*font-family: 'HelveticaNeueLTStd-Th';*/
+    /* font-size: 72.5%; */
+    font-size: 14px;
+    background: #FFF;
+    /*background: url(../images/bg.jpg) repeat;*/
+    /*        background: #eef5fd; 
+            background: -moz-linear-gradient(left, #eef5fd 0%, #bcdbf0 100%); 
+            background: -webkit-gradient(linear, left top, right top, color-stop(0%,#eef5fd), color-stop(100%,#bcdbf0));  
+            background: -webkit-linear-gradient(left, #eef5fd 0%,#bcdbf0 100%); 
+            background: -o-linear-gradient(left, #eef5fd 0%,#bcdbf0 100%);  
+            background: -ms-linear-gradient(left, #eef5fd 0%,#bcdbf0 100%); 
+            background: linear-gradient(to right, #eef5fd 0%,#bcdbf0 100%); 
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eef5fd', endColorstr='#bcdbf0',GradientType=1 );*/
+    /* height: 100%; */
+    /* width: 100%; */
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    /*background: #FFF;*/
+}
